@@ -76,6 +76,7 @@ First of all, the mini project is completely ran in Rstudio using R. This for th
 
 The main goal of this project is to create a dashboard to show realtime data from the Public transport in Bruges. I hope that this shiny app can also be used on a daily basis for some citizens. I choose to create a shiny app because It seems to be a completely different way of showing data using dashboard and R. 
 The link of the shiny app can be found here:  [ShinyAppArthurMaenhout](https://amaenhout.shinyapps.io/shiny/).
+(there seems to be a problem with the realtime data on the website, but it is working in Rstudio when running App.R (zipped file))
 
 ### General Transit Feed Specification (GTFS)
 My project is based on GTFS data, GTFS defines a common format that is used in cities and countries. It includes transportations schedules and geographic information. The static part is composed of text files which can be collected in a ZIP file. Each of these files have information about a particular aspect of transit: stops, routes, trips, stop times, and other data. Figure 1 show the full dataset with the relationships. This static data is general for every city which makes it handy to use in different cities. The realtime part of GTFS is not that general across cities. Each city or country choses which information they want to push to the GTFS feed. When cities choose to open this live data is allows users to efficiently plan their trips based on current arrival and departure times. 
